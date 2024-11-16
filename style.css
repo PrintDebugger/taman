@@ -61,8 +61,10 @@ button {
     padding: 0.4em 0.8em;
     width: 300px;
     position: fixed;
-    right: 20px;
-    top: 80px;
+    /*right: 20px;
+    top: 80px;*/
+    right: 7%;
+    top: calc(10% + 70px);
     background-color: #000b;
     border-radius: 8px;
     font-size: 1em;
@@ -93,14 +95,18 @@ nav {
     display: flex;
     flex-direction: row;
     position: fixed;
-    top: 0;
-    right: 0;
     padding: 1em;
     user-select: none;
     background-color :#dfe; 
+    /*top: 0;
+    right: 0;
     border-left: 2px solid #7ca;
     border-bottom: 2px solid #7ca;
-    border-bottom-left-radius: 25px;
+    border-bottom-left-radius: 25px;*/
+    top: 10%;
+    right: 7%;
+    border: 2px solid #7ca;
+    border-radius: 25px;
     opacity: 0.8;
     transition: 150ms;
 }
