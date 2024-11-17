@@ -146,7 +146,7 @@ function initialiseButtons() {
     const buttonGroup = document.querySelector(".sidenav"); // Select parent container
 
     if (buttonGroup) {
-        var activeSectionIndex = 0; // Define current section, default is 0
+        var activeSectionIndex = 1; // Define current section, default is 1
 
         // Add same click command to all buttons
         buttonGroup.querySelectorAll(".sidenav-button").forEach((button, index) => {
