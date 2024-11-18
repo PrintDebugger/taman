@@ -793,6 +793,10 @@ footer p {
     flex-basis: 100%;
 }
 
+.center {
+    text-align: center;
+}
+
 
 
 /* Media queries */
@@ -907,6 +911,7 @@ footer p {
     .about-info {
         flex-direction: column-reverse;
         align-items: center;
+        gap: 2em;
     }
 
     .about-images {
